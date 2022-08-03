@@ -25,7 +25,7 @@ class _ListArticlePageState extends State<ListArticlePage> {
     if (!_scrollController.hasClients) return false;
     final maxScroll = _scrollController.position.maxScrollExtent;
     final currentScroll = _scrollController.offset;
-    return currentScroll >= (maxScroll * 0.9);
+    return currentScroll >= (maxScroll * 1);
   }
 
   @override
